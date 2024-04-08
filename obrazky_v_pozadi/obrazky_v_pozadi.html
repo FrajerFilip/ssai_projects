@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .obrazek{
+            background-image: url("mclaren.jpg");
+            /*neprakticke pro mensi objekty*/
+        }
+
+        .mclaren{
+            width: 500px;
+            height: 500px;
+
+            background-image: url("mclaren.jpg");
+            background-position: center; /*Posun obrazku na pozadi*/ /*Zapisuje se slovně - top, bottom, right, left*/
+            background-repeat: no-repeat; /*Opakování obrázku v případě možnosti - norepeat, repeat, repeat-y*/
+            opacity: 0.5;
+
+            background-size: 500px; /*Mění velikost obrázku*/
+            scale: 1.2; /*Škálování prvku i s pozadím*/
+            transition: 0.5s;
+        }
+
+        .mclaren:hover{ /*Změna obrázku při přejetí myší*/
+            background-image: url("stáhnout.jpg");
+            scale: 1.2;
+            opacity: 1;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, quod vitae sapiente quam maxime exercitationem officiis veniam quo. Repudiandae accusamus debitis voluptates ipsa! Ratione soluta minima illo, rerum aliquid veritatis!
+    </p>
+    <p class="obrazek">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus blanditiis eveniet officiis, magni praesentium a quidem eius quis hic rerum similique. Quibusdam quo eaque veniam distinctio ut dolorem recusandae totam.
+    </p>
+    <div class="mclaren">
+
+    </div>
+</body>
+</html>

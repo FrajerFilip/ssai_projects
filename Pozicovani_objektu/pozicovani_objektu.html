@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h3{
+            position: absolute; /*absolute = objekt je pevmě zarovnán do stránky a neřeší ostatní prvky => nebtéka*/
+
+            /*--Zadávaní souřadnic--*/ /*--Hodnoty-- top, bottom, left, right*/
+            top: ;
+            left: ;
+            right: ;
+            bottom: ;
+
+            background-color: orange;
+        }
+
+        h1{
+            position: sticky; /*sticky - objekt je zarovnán do stránky, ale ostatní prvky ho obtékají - důležité pro CMS*/
+        }
+
+        div{
+            position: relative; /*relative = je zarovnán do stránky a ostatní prvky ho obtékají*/
+            display: flex; /*dovoluje vytvářet jednoduchý responzivní design a pozicovat objekty*/
+
+            /*--Tyto prvky fungují pouze v případě že prvek má hodnotu display: flex;--*/
+
+            justify-content: center; /*Zarovnání objektů na ose X = space around, space-between, flex-start, flex-end, space-evenly*/
+            align-items: space;  /*Zarovnání objrktů na ose Y = flex-start, flex-end, center, stretch, baseline*/
+            flex-direction: row; /*Směr objektů - column, row*/
+        }
+
+        /*Display: none, grid, block, flex*/
+        .neviditelny{
+            display: none; /*objekt je skrytý*/
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Pozicování textu</h1>
+    <h2>Ukázka zarovnání</h2>
+
+    <div>
+        <h2>Ukázka zarovnání</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti officiis nulla voluptas ipsam cum nemo iusto? Quas ullam ratione similique facere vero suscipit, minus, explicabo doloremque et optio corrupti.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quas nesciunt dolore nihil a unde vitae at itaque consequatur totam esse, expedita, nisi vero eveniet veniam. Aut tempora maxime qui?
+        </p>
+    </div>
+    <h3>Absolutní pozice</h3>
+
+    <p class="neviditelny">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolore quae minus ea reiciendis incidunt in excepturi quis natus laudantium eligendi aut earum quibusdam? Officia sint porro adipisci blanditiis sequi.</p>
+</body>
+</html>

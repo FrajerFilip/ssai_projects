@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objekty v HTML</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>iFrame</h1> <!--Specifikuje rám pro (mapy, nahledy)-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.8002780101483!2d14.538400677091335!3d50.052572571518866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b92624cbcfc81%3A0x751bd41c0682bf68!2sWeilova%201271%2F6%2C%20102%2000%20Praha%2015-Hostiva%C5%99!5e0!3m2!1scs!2scz!4v1711452872640!5m2!1scs!2scz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://skolahostivar.cz" frameborder="0"></iframe>
+
+    <!--Video z Youtube-->
+    <h1>Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jP0TScycv3E?si=jQh0uMbACoquTmde" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>IMG - obrázek</h1>
+    <img src="mclaren.jpg" alt="mclaren">
+
+    <h1>Video</h1>
+    <video width="300px" autoplay muted controls> <!--autoplay - automatocké prehravani; muted - ztlumeni; controls - dovoluje kontrolni panel-->
+        <source src="videoukazka.mp4" type="video/mp4">
+    </video>
+
+
+    <h1>Audio</h1>
+    <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>

@@ -1,0 +1,36 @@
+div{
+    color: grey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.prvni{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+
+}
+
+.druhy{
+    width: px; /*Mastavení šířky objektu*/
+    height: px; /*Mastavení výšky objektu*/
+    background-color: orange;
+    border: 3px solid black; /*shorthand pro rámeček prvku - šířka rámečku, styl rámečku, barva rámečku*/
+    border-radius: 5%; /*zaoblení rámečku - px nebo od 0% do 50%*/
+
+    display: flex;
+    text-align: justify;
+    font-size: 48px;
+    color: red;
+
+    width: auto;
+    height: auto;
+}

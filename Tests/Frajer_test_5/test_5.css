@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+h1{
+    font-size: 2em;
+}
+
+.container{
+    /*width: 80vw;*/
+    height: 800px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.prvni{
+    background-color: red;
+    width: 20px;
+    height: 90px;
+
+}
+
+.druhy{
+    background-color: blue;
+    width: 20px;
+    height: 90px;
+}
+
+.treti{
+    background-color: green;
+    width: 20px;
+    height: 90px;
+}
+
+.ctvrty{
+    background-color: yellow;
+    width: 20px;
+    height: 90px;
+}

@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+}
+
+.div_Nadpis_1{
+    background-color: cyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+
+
+.main_div_p{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.div_p_1{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+.div_p_2{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 1000px;
+    text-align: center;
+}

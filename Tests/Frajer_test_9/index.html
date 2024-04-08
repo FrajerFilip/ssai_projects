@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            border-collapse: collapse; 
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        table{
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            border-collapse: collapse;
+            margin-top: 50px;
+        }
+        caption{
+            text-align: center;
+        }
+        .polevky{
+            background-color: rgb(0, 153, 255);
+        }
+        .hlavnichody{
+            background-color: orange;
+        }
+        td{
+            padding: 5px 10px 5px 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <caption class="jidelni_listek">Jídelní lístek</caption>
+        <table>
+            <th colspan="2" class="polevky">Polévky</th>
+            <tr class="polevky">
+                <td>Hovězí vývar s nudlemi</td>
+                <td>29Kč</td>
+            </tr>
+            <tr class="polevky">
+                <td>Krém z červené čočky</td>
+                <td>29Kč</td>
+            </tr>
+            <tr class="polevky">
+                <td>Dzšťková</td>
+                <td>29Kč</td>
+            </tr>
+
+
+            <th colspan="2" class="hlavnichody">Hlavní chody</th>
+            <tr class="hlavnichody">
+                <td>Smažený eidam s hranolkmi</td>
+                <td>99Kč</td>
+            </tr>
+            <tr class="hlavnichody">
+                <td>Grilovaná kuřecí prsa s pečenými brambory</td>
+                <td>99Kč</td>
+            </tr>
+            <th colspan="2">Polévky jsou v ceně hlavního chodu.</th>
+            <tr></tr>
+            <th colspan="2">Pro děti do 10 let sleva 50%.</th>
+        </table>
+    </div>
+    
+</body>
+</html>

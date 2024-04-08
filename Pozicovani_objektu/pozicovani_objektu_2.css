@@ -1,0 +1,14 @@
+body{
+    background-color: coral;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_div{
+    display: flex;
+    flex-direction: row;/**/
+}
+
+.main_div_1{
+    display: flex;
+    justify-content: space-between;/**/
+}

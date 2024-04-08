@@ -1,0 +1,16 @@
+body {
+	font-family: Helvetica; 
+}
+
+.first_h1 {
+	color: blue;
+}
+
+.first_p {
+	font-weight: bold;
+}
+
+.first_hr {
+	background-color: blue;
+}
+

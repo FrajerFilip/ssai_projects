@@ -1,0 +1,21 @@
+div{
+    color: grey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.prvni{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.druhy{
+    width: 250px; /*Mastavení šířky objektu*/
+    height: 250px; /*Mastavení výšky objektu*/
+    background-color: orange;
+    border: 3px solid black; /*shorthand pro rámeček prvku - šířka rámečku, styl rámečku, barva rámečku*/
+    border-radius: 5%; /*zaoblení rámečku - px nebo od 0% do 50%*/
+}
